@@ -1,5 +1,5 @@
 const a = 3;
-b = 2;
+const b = 2;
 const c = 'dnstld';
 
 function soma() {
