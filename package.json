@@ -7,9 +7,13 @@
     "lint": "./node_modules/.bin/eslint src/*.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run lint"
+    }
+  },
   "repository": {
     "type": "git",
-    "prepush": "npm run lint",
     "url": "git+https://github.com/dnstld/js-tdd-course.git"
   },
   "keywords": [
